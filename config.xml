@@ -1,53 +1,21 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="lightellicare"  xmlns:android="http://schemas.android.com/apk/res/android" version="1.0.0" versionCode="1">
-  <script id="macsatgrading"/>
-    <name>LIGHTellicare</name>
-    <description>
-      Intellicare application for LIGHT Org.
-    </description>
-    <author email="ashbee.morgado@icloud.com" href="http://www.facebook.com/primoashbee">
-        Ashbee MOrgado
-    </author>
-    
-    <gap:platforms>
-      <gap:platform name="ios"/>
-      <gap:platform name="android"/>
-      <gap:platform name="webos"/>
-      <gap:platform name="symbian.wrt"/>
-      <gap:platform name="blackberry" project="widgets"/>
-    </gap:platforms>
-    <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="true" />
-    </gap:config-file>
-    <manifest>
-     <application android:debuggable="true" />
-     
-    </manifest>
-    <!--<gap:plugin name="org.apache.cordova.media"/> -->
-    <icon src="android/ldpi.png" platform="android" qualifier="ldpi" />
-    <icon src="android/mdpi.png" platform="android" qualifier="mdpi" />
-    <icon src="android/hdpi.png" platform="android" qualifier="hdpi" />
-    <icon src="android/xhdpi.png" platform="android" qualifier="xhdpi" />
-    <icon src="android/xxhdpi.png" platform="android" qualifier="xxhdpi" />
-    <icon src="android/fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap	= "http://phonegap.com/ns/1.0"
+        id = "com.phonegap.getting.started"
+        version = "0.1.1">
 
-    <preference name="phonegap-version" value="3.6.3"/>
-    <feature name="http://api.phonegap.com/1.0/device"/>
-    <feature name="http://api.phonegap.com/1.0/media"/>
-    <access origin="*" subdomains="true"/>
-    <access uri="*" subdomains="true"/>
-    <access uri="http://google.com" subdomains="true"/>
-    <feature name="http://api.phonegap.com/1.0/network"/>
-    
-    <feature name="InAppBrowser">
-      <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
-    </feature>
+	<name>LIGHTellicare</name>
 
-    <feature name="Media">
-      <param name="android-package" value="org.apache.cordova.media.AudioHandler"/>
-    </feature>
+	<description>
+    Application for LIGHT Organization
+  </description>
 
-    <preference name="orientation" value="auto"/>
-    <preference name="fullscreen" value="false"/>
-    <preference name="target-device" value="universal"/>
-    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+	<author href="http://www.facebook.com/primoashbe"
+          email="ashbee.morgado@icloud.com">
+    Ashbee Morgado
+	</author>
+
+  <preference name="phonegap-version" value="1.1.0" />
+
+	<icon src="icon.png" gap:role="default" />
 </widget>
