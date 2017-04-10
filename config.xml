@@ -12,7 +12,7 @@
 			<gap:platform name="blackberry" project="widgets"/>
 		</gap:platforms>
 
-		<icon src="icon.png" gap:role="default"/>
+		<icon src="android/icon-36-ldpi.png" gap:role="default"/>
 		
 		 <!-- core plugins -->
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
